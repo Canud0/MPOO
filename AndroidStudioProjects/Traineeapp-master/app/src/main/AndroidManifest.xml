@@ -31,7 +31,8 @@
         <activity
             android:name=".CadastroEstagiario"
             android:screenOrientation="portrait" />
-        <activity android:name=".Curriculo"></activity>
+        <activity android:name=".Curriculo" />
+        <activity android:name=".TelaPrincipalEstagiario"></activity>
     </application>
 
 </manifest>
