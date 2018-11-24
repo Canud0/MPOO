@@ -36,15 +36,21 @@
 
             <TextView
                 android:id="@+id/cadastroest"
-                android:background="@drawable/aroundtext"
                 android:layout_width="250dp"
                 android:layout_height="27dp"
-                android:text="@string/cadastroestagiario"
-                android:textAlignment="center"
                 android:layout_gravity="center"
                 android:layout_marginTop="20sp"
-                android:textSize="20sp"
-                android:textColor="@color/colorPrimary"/>
+                android:text="@string/cadastroestagiario"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginTop="-10dp"
+                android:background="@drawable/aroundtext" />
 
             <EditText
                 android:id="@+id/editNomeCadastroEst"
